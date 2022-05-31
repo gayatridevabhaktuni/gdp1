@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F512120283EAA290041E0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51211F283EAA290041E0AD /* AppDelegate.swift */; };
+		3F512122283EAA290041E0AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F512121283EAA290041E0AD /* SceneDelegate.swift */; };
+		3F512124283EAA290041E0AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F512123283EAA290041E0AD /* ViewController.swift */; };
+		3F512127283EAA290041E0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F512125283EAA290041E0AD /* Main.storyboard */; };
+		3F512129283EAA2A0041E0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F512128283EAA2A0041E0AD /* Assets.xcassets */; };
+		3F51212C283EAA2A0041E0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F51212A283EAA2A0041E0AD /* LaunchScreen.storyboard */; };
+		3F512137283EAA2A0041E0AD /* Attendance_Tracking_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F512136283EAA2A0041E0AD /* Attendance_Tracking_SystemTests.swift */; };
+		3F512141283EAA2A0041E0AD /* Attendance_Tracking_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F512140283EAA2A0041E0AD /* Attendance_Tracking_SystemUITests.swift */; };
+		3F512143283EAA2A0041E0AD /* Attendance_Tracking_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F512142283EAA2A0041E0AD /* Attendance_Tracking_SystemUITestsLaunchTests.swift */; };
+		3F51215028400A050041E0AD /* FacultyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51214F28400A050041E0AD /* FacultyLoginViewController.swift */; };
+		3F51215228400A350041E0AD /* FacultySignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215128400A350041E0AD /* FacultySignUpViewController.swift */; };
+		3F51215428400A660041E0AD /* FacultyCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215328400A660041E0AD /* FacultyCoursesViewController.swift */; };
+		3F51215628400A890041E0AD /* GenerateQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215528400A890041E0AD /* GenerateQRViewController.swift */; };
+		3F51215828400ABD0041E0AD /* StudentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215728400ABD0041E0AD /* StudentLoginViewController.swift */; };
+		3F51215A28400B9F0041E0AD /* StudentSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215928400B9F0041E0AD /* StudentSignUpViewController.swift */; };
+		3F51215C28400CCF0041E0AD /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215B28400CCF0041E0AD /* StudentViewController.swift */; };
+		3F51215E28400D040041E0AD /* CheckAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215D28400D040041E0AD /* CheckAttendanceViewController.swift */; };
+		3F51216028400D3B0041E0AD /* RecordAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51215F28400D3B0041E0AD /* RecordAttendanceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F512133283EAA2A0041E0AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F512114283EAA280041E0AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F51211B283EAA290041E0AD;
+			remoteInfo = "Attendance Tracking System";
+		};
+		3F51213D283EAA2A0041E0AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F512114283EAA280041E0AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F51211B283EAA290041E0AD;
+			remoteInfo = "Attendance Tracking System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F51211C283EAA290041E0AD /* Attendance Tracking System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Tracking System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F51211F283EAA290041E0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F512121283EAA290041E0AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F512123283EAA290041E0AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F512126283EAA290041E0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F512128283EAA2A0041E0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F51212B283EAA2A0041E0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F51212D283EAA2A0041E0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F512132283EAA2A0041E0AD /* Attendance Tracking SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance Tracking SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F512136283EAA2A0041E0AD /* Attendance_Tracking_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance_Tracking_SystemTests.swift; sourceTree = "<group>"; };
+		3F51213C283EAA2A0041E0AD /* Attendance Tracking SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance Tracking SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F512140283EAA2A0041E0AD /* Attendance_Tracking_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance_Tracking_SystemUITests.swift; sourceTree = "<group>"; };
+		3F512142283EAA2A0041E0AD /* Attendance_Tracking_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance_Tracking_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F51214F28400A050041E0AD /* FacultyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyLoginViewController.swift; sourceTree = "<group>"; };
+		3F51215128400A350041E0AD /* FacultySignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultySignUpViewController.swift; sourceTree = "<group>"; };
+		3F51215328400A660041E0AD /* FacultyCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyCoursesViewController.swift; sourceTree = "<group>"; };
+		3F51215528400A890041E0AD /* GenerateQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRViewController.swift; sourceTree = "<group>"; };
+		3F51215728400ABD0041E0AD /* StudentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginViewController.swift; sourceTree = "<group>"; };
+		3F51215928400B9F0041E0AD /* StudentSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSignUpViewController.swift; sourceTree = "<group>"; };
+		3F51215B28400CCF0041E0AD /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		3F51215D28400D040041E0AD /* CheckAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAttendanceViewController.swift; sourceTree = "<group>"; };
+		3F51215F28400D3B0041E0AD /* RecordAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAttendanceViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F512119283EAA290041E0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F51212F283EAA2A0041E0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F512139283EAA2A0041E0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F512113283EAA280041E0AD = {
+			isa = PBXGroup;
+			children = (
+				3F51211E283EAA290041E0AD /* Attendance Tracking System */,
+				3F512135283EAA2A0041E0AD /* Attendance Tracking SystemTests */,
+				3F51213F283EAA2A0041E0AD /* Attendance Tracking SystemUITests */,
+				3F51211D283EAA290041E0AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F51211D283EAA290041E0AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F51211C283EAA290041E0AD /* Attendance Tracking System.app */,
+				3F512132283EAA2A0041E0AD /* Attendance Tracking SystemTests.xctest */,
+				3F51213C283EAA2A0041E0AD /* Attendance Tracking SystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F51211E283EAA290041E0AD /* Attendance Tracking System */ = {
+			isa = PBXGroup;
+			children = (
+				3F51211F283EAA290041E0AD /* AppDelegate.swift */,
+				3F512121283EAA290041E0AD /* SceneDelegate.swift */,
+				3F512123283EAA290041E0AD /* ViewController.swift */,
+				3F512125283EAA290041E0AD /* Main.storyboard */,
+				3F51215F28400D3B0041E0AD /* RecordAttendanceViewController.swift */,
+				3F51215D28400D040041E0AD /* CheckAttendanceViewController.swift */,
+				3F51215B28400CCF0041E0AD /* StudentViewController.swift */,
+				3F51215928400B9F0041E0AD /* StudentSignUpViewController.swift */,
+				3F51215728400ABD0041E0AD /* StudentLoginViewController.swift */,
+				3F51215528400A890041E0AD /* GenerateQRViewController.swift */,
+				3F51215328400A660041E0AD /* FacultyCoursesViewController.swift */,
+				3F51215128400A350041E0AD /* FacultySignUpViewController.swift */,
+				3F51214F28400A050041E0AD /* FacultyLoginViewController.swift */,
+				3F512128283EAA2A0041E0AD /* Assets.xcassets */,
+				3F51212A283EAA2A0041E0AD /* LaunchScreen.storyboard */,
+				3F51212D283EAA2A0041E0AD /* Info.plist */,
+			);
+			path = "Attendance Tracking System";
+			sourceTree = "<group>";
+		};
+		3F512135283EAA2A0041E0AD /* Attendance Tracking SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F512136283EAA2A0041E0AD /* Attendance_Tracking_SystemTests.swift */,
+			);
+			path = "Attendance Tracking SystemTests";
+			sourceTree = "<group>";
+		};
+		3F51213F283EAA2A0041E0AD /* Attendance Tracking SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F512140283EAA2A0041E0AD /* Attendance_Tracking_SystemUITests.swift */,
+				3F512142283EAA2A0041E0AD /* Attendance_Tracking_SystemUITestsLaunchTests.swift */,
+			);
+			path = "Attendance Tracking SystemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F51211B283EAA290041E0AD /* Attendance Tracking System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F512146283EAA2A0041E0AD /* Build configuration list for PBXNativeTarget "Attendance Tracking System" */;
+			buildPhases = (
+				3F512118283EAA290041E0AD /* Sources */,
+				3F512119283EAA290041E0AD /* Frameworks */,
+				3F51211A283EAA290041E0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attendance Tracking System";
+			productName = "Attendance Tracking System";
+			productReference = 3F51211C283EAA290041E0AD /* Attendance Tracking System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F512131283EAA2A0041E0AD /* Attendance Tracking SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F512149283EAA2A0041E0AD /* Build configuration list for PBXNativeTarget "Attendance Tracking SystemTests" */;
+			buildPhases = (
+				3F51212E283EAA2A0041E0AD /* Sources */,
+				3F51212F283EAA2A0041E0AD /* Frameworks */,
+				3F512130283EAA2A0041E0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F512134283EAA2A0041E0AD /* PBXTargetDependency */,
+			);
+			name = "Attendance Tracking SystemTests";
+			productName = "Attendance Tracking SystemTests";
+			productReference = 3F512132283EAA2A0041E0AD /* Attendance Tracking SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F51213B283EAA2A0041E0AD /* Attendance Tracking SystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F51214C283EAA2A0041E0AD /* Build configuration list for PBXNativeTarget "Attendance Tracking SystemUITests" */;
+			buildPhases = (
+				3F512138283EAA2A0041E0AD /* Sources */,
+				3F512139283EAA2A0041E0AD /* Frameworks */,
+				3F51213A283EAA2A0041E0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F51213E283EAA2A0041E0AD /* PBXTargetDependency */,
+			);
+			name = "Attendance Tracking SystemUITests";
+			productName = "Attendance Tracking SystemUITests";
+			productReference = 3F51213C283EAA2A0041E0AD /* Attendance Tracking SystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F512114283EAA280041E0AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3F51211B283EAA290041E0AD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F512131283EAA2A0041E0AD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F51211B283EAA290041E0AD;
+					};
+					3F51213B283EAA2A0041E0AD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F51211B283EAA290041E0AD;
+					};
+				};
+			};
+			buildConfigurationList = 3F512117283EAA280041E0AD /* Build configuration list for PBXProject "Attendance Tracking System" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F512113283EAA280041E0AD;
+			productRefGroup = 3F51211D283EAA290041E0AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F51211B283EAA290041E0AD /* Attendance Tracking System */,
+				3F512131283EAA2A0041E0AD /* Attendance Tracking SystemTests */,
+				3F51213B283EAA2A0041E0AD /* Attendance Tracking SystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F51211A283EAA290041E0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F51212C283EAA2A0041E0AD /* LaunchScreen.storyboard in Resources */,
+				3F512129283EAA2A0041E0AD /* Assets.xcassets in Resources */,
+				3F512127283EAA290041E0AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F512130283EAA2A0041E0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F51213A283EAA2A0041E0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F512118283EAA290041E0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F51216028400D3B0041E0AD /* RecordAttendanceViewController.swift in Sources */,
+				3F51215C28400CCF0041E0AD /* StudentViewController.swift in Sources */,
+				3F51215628400A890041E0AD /* GenerateQRViewController.swift in Sources */,
+				3F51215428400A660041E0AD /* FacultyCoursesViewController.swift in Sources */,
+				3F512124283EAA290041E0AD /* ViewController.swift in Sources */,
+				3F512120283EAA290041E0AD /* AppDelegate.swift in Sources */,
+				3F51215828400ABD0041E0AD /* StudentLoginViewController.swift in Sources */,
+				3F51215028400A050041E0AD /* FacultyLoginViewController.swift in Sources */,
+				3F512122283EAA290041E0AD /* SceneDelegate.swift in Sources */,
+				3F51215228400A350041E0AD /* FacultySignUpViewController.swift in Sources */,
+				3F51215A28400B9F0041E0AD /* StudentSignUpViewController.swift in Sources */,
+				3F51215E28400D040041E0AD /* CheckAttendanceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F51212E283EAA2A0041E0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F512137283EAA2A0041E0AD /* Attendance_Tracking_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F512138283EAA2A0041E0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F512141283EAA2A0041E0AD /* Attendance_Tracking_SystemUITests.swift in Sources */,
+				3F512143283EAA2A0041E0AD /* Attendance_Tracking_SystemUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F512134283EAA2A0041E0AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F51211B283EAA290041E0AD /* Attendance Tracking System */;
+			targetProxy = 3F512133283EAA2A0041E0AD /* PBXContainerItemProxy */;
+		};
+		3F51213E283EAA2A0041E0AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F51211B283EAA290041E0AD /* Attendance Tracking System */;
+			targetProxy = 3F51213D283EAA2A0041E0AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F512125283EAA290041E0AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F512126283EAA290041E0AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F51212A283EAA2A0041E0AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F51212B283EAA2A0041E0AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F512144283EAA2A0041E0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F512145283EAA2A0041E0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F512147283EAA2A0041E0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Attendance Tracking System/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Attendance Tracking System";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Attendance-Tracking-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F512148283EAA2A0041E0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Attendance Tracking System/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Attendance Tracking System";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Attendance-Tracking-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F51214A283EAA2A0041E0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Attendance-Tracking-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attendance Tracking System.app/Attendance Tracking System";
+			};
+			name = Debug;
+		};
+		3F51214B283EAA2A0041E0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Attendance-Tracking-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Attendance Tracking System.app/Attendance Tracking System";
+			};
+			name = Release;
+		};
+		3F51214D283EAA2A0041E0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Attendance-Tracking-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Attendance Tracking System";
+			};
+			name = Debug;
+		};
+		3F51214E283EAA2A0041E0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Attendance-Tracking-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Attendance Tracking System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F512117283EAA280041E0AD /* Build configuration list for PBXProject "Attendance Tracking System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F512144283EAA2A0041E0AD /* Debug */,
+				3F512145283EAA2A0041E0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F512146283EAA2A0041E0AD /* Build configuration list for PBXNativeTarget "Attendance Tracking System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F512147283EAA2A0041E0AD /* Debug */,
+				3F512148283EAA2A0041E0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F512149283EAA2A0041E0AD /* Build configuration list for PBXNativeTarget "Attendance Tracking SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F51214A283EAA2A0041E0AD /* Debug */,
+				3F51214B283EAA2A0041E0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F51214C283EAA2A0041E0AD /* Build configuration list for PBXNativeTarget "Attendance Tracking SystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F51214D283EAA2A0041E0AD /* Debug */,
+				3F51214E283EAA2A0041E0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F512114283EAA280041E0AD /* Project object */;
+}
